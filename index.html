@@ -16,19 +16,167 @@
 
 <body>
     <header>
-        <div class="header-container">
-            <div class="header-info header-title">
-                <h1 class="text-h1">Svitlana <span id="surname">Turchanina</span></h1>
-                <h3 class="text-h3">Junior Frontend Developer</h3>
+        <div class="header-color">
+
+            <div class="container">
+
+                <div class=" header-container">
+                    <div class="header-info header-title">
+                        <h1 class="text-h1">Svitlana <span id="surname">Turchanina</span></h1>
+                        <h3 class="text-h3">Junior Frontend Developer</h3>
+                    </div>
+
+                    <div class="header-info header-photo">
+                        <img src="assets/img/photo.jpg" alt="My photo" class="header-photo">
+                    </div>
+                </div>
+
+
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                        <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                        <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                        <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                    </ul>
+                </nav>
+
             </div>
-            <div class="header-info header-photo">
-                <img src="assets/img/photo.jpg" alt="My photo" class="header-photo">
-            </div>
+
         </div>
     </header>
 
-    <main>
-        <div class="container">
+    <main class="main">
+        <div class="container main-container">
+
+            <div class="left-column">
+                <section class="section" id="contacts">
+                    <h2 class="section-title">Contacts</h2>
+                    <ul class="list">
+                        <li>
+                            Country: Ukraine
+                        </li>
+                        <li>
+                            E-mail:
+                            <a href="mailto:svetsitkh@gmail.com" title="email" class="link">
+                                svetsitkh@gmail.com
+                            </a>
+                        </li>
+                        <li>
+                            GitHub:
+                            <a href="https://github.com/svetsitkh" title="github" target="_blank" class="link">
+                                svetsitkh
+                            </a>
+                        </li>
+                        <li>
+                            Discord: svetsitkh
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <ul class="list">
+                        <li>
+                            HTML
+                        </li>
+                        <li>
+                            CSS
+                        </li>
+                        <li>
+                            JavaScript
+                        </li>
+                        <li>
+                            Git, GitHub
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="section" id="projects">
+                    <h2 class="section-title">Projects</h2>
+                    <ul class="list">
+                        <li>
+                            <a href="https://github.com/svetsitkh/rsschool-cv/tree/gh-pages" title="rsschool-cv"
+                                target="_blank" class="link">
+                                rsschool-cv
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="section" id="languages">
+                    <h2 class="section-title">Languages</h2>
+                    <ul class="list">
+                        <li>
+                            Russian - native
+                        </li>
+                        <li>
+                            Ukrainian - native
+                        </li>
+                        <li>
+                            English - B1
+                        </li>
+                    </ul>
+                </section>
+            </div>
+
+            <div class="right-column">
+                <section class="section" id="profile">
+                    <h2 class="section-title">Profile</h2>
+                    <p class="p">
+                        I am studying Frontend programming. My purpose is to become a fine specialist in this area. I am
+                        sure I have most of the necessary skills for this profession. In the past, I worked as a 1C
+                        Enterprise developer for about 6 years. Also I have a degree in IT, though that was a bit long
+                        ago.
+                    </p>
+                </section>
+
+                <section class="section" id="education">
+                    <h2 class="section-title">Education</h2>
+                    <p class="p">
+                        National Aerospace University «Kharkiv Aviation Institute» / Faculty of Software Engineering and
+                        Business 2003-2008
+                    </p>
+                    <p class="p">
+                        Software of automated systems
+                    </p>
+                    <p class="p">
+                        Specialist's degree
+                    </p>
+                </section>
+
+                <section class="section" id="courses">
+                    <h2 class="section-title">Сourses</h2>
+                    <ul class="list">
+                        <li>
+                            Udemy - Git&GitHub
+                        </li>
+                        <li>
+                            <a href="https://wearecommunity.io/events/js-stage0-rs-2023q2" title="RSS Course"
+                                target="_blank" class="link">
+                                JavaScript/Front-end Course. Stage 0 by RS School
+                            </a>
+                            (in progress)
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="section" id="code">
+                    <h2 class="section-title">Code example</h2>
+                    <pre class="code-example">
+                        <code>
+    function calculateVolume(a, b, h) {
+        const volume = a * b * h;
+        return volume;
+    }                   </code>
+                    </pre>
+                </section>
+
+            </div>
 
         </div>
     </main>
@@ -39,9 +187,9 @@
                 <span>© 2023 </span>
                 <a href="https://github.com/svetsitkh" target="_blank" class="footer-link">by Svitlana Turchanina</a>
             </div>
-            <a>
+
+            <div>
                 <a href="https://rs.school/js/" target="_blank">
-                    <!-- <img src="https://rs.school/images/rs_school_js.svg" alt="RS school logo" class="rss-logo"> -->
                     <img src="assets/rs_school_js.svg" alt="RS school logo" class="rss-logo">
                 </a>
             </div>
